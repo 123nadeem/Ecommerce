@@ -1,0 +1,606 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    scroll-behavior: smooth;
+
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Scroll bar */
+
+
+/* NavTop Start */
+
+.social-link i {
+    margin-right: 15px;
+    margin-top: 1.8vh;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.social-link i:hover {
+    color: #ff5722;
+    transform: scale(1.2);
+}
+
+/* NavTop End */
+
+
+/* Navbar start */
+
+.navbar {
+    background-color: rgba(238, 224, 208);
+    height: 57px;
+}
+
+.navbar-collapse ul li {
+    margin-right: 30px;
+
+}
+
+.nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.nav-item .nav-link:hover {
+    background-color: hsl(35, 100%, 50%);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+}
+
+/* Navbar start */
+
+
+
+/* Home Start */
+
+.home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0.8, 0, 0, 0.4)), url('./pics/home.jpg');
+    background-repeat: repeat;
+    background-size: 100% 90vh;
+}
+
+.home .content {
+    padding-top: 180px;
+    padding-left: 80px;
+
+}
+
+.home .content h5 {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    word-spacing: 1px;
+    text-shadow: 0px 1px 1px black;
+}
+
+.home .content h1 {
+    color: hsl(35, 100%, 50%);
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.home .content p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    word-spacing: 1px;
+}
+
+.home .content .butt {
+    margin-top: 30px;
+}
+
+.home .content a {
+    border: 1px solid white;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    padding: 7px;
+    box-sizing: border-box;
+    transition: 0.5s ease;
+}
+
+.home .content a:hover {
+    background-color: hsl(35, 100%, 50%);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px hsl(35, 100%, 50%);
+    font-weight: 500;
+
+}
+
+/* Home End */
+
+
+/* Service start */
+
+
+.main-text {
+    text-align: center;
+}
+
+.main-text h1 {
+    font-size: 30px;
+    font-weight: 450;
+    text-shadow: 0px 1px 1px black;
+
+}
+
+.main-text span {
+    color: hsl(35, 100%, 50%);
+}
+
+.services {
+    background-color: #f9f9f9;
+    padding-top: 50px;
+}
+
+.services .row {
+    margin-top: 50px;
+}
+
+.services .card {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+.services .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 12px;
+    transform: scale(1.01);
+}
+.services .card img {
+    height: 180px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.services .card .card-body {
+    background: transparent;
+}
+
+.services .card .card-body h5 {
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.services .card .card-body p {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.services .card .card-body button {
+    width: 100px;
+    height: 33px;
+    background: transparent;
+    color: black;
+    font-size: 13px;
+    border-color: black;
+    transition: 0.5s ease;
+    padding-top: 6px;
+}
+
+.services .card .card-body button:hover {
+    background-color: hsl(35, 100%, 50%);
+    color: white;
+    transform: scale(1.01);
+    font-weight: 500;
+    border-color: white;
+}
+
+/* Service End */
+
+
+
+
+
+
+/* Shop START */
+
+.shop {
+    background-color: #f9f9f9;
+    padding-top: 60px;
+}
+
+.shop .card {
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    height: 280px;
+    overflow: hidden;
+}
+
+.shop .card img {
+    height: 275px;
+    border-radius: 5px;
+    transition: 0.7s ease;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+}
+.shop .card:hover img{
+    transform: scale(1.1);
+ }
+.shop .card .card-body {
+    background: transparent;
+    height: 50px;
+    width: 100%;
+    /* background-color: hsl(35, 100%, 50%); */
+    background: linear-gradient(to bottom, hsl(35, 93%, 72%),hsl(35, 100%, 50%));
+    position: absolute;
+    bottom: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.7s ease;
+}
+
+.shop .card:hover .card-body {
+    height: 100%;
+    transform: scale(1.2);
+    visibility: visible;
+    /* background: linear-gradient(to bottom,  hsl(36, 78%, 91%), hsl(35, 100%, 50%)); */
+    background: linear-gradient(to bottom, transparent 0%, hsl(35, 100%, 50%) 100%, hsl(35, 93%, 72%));
+    padding-top: 170px;
+    overflow: hidden;
+}
+
+.shop .card .card-body h5 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+
+}
+
+.shop .card .card-body h6 {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    visibility: hidden;
+    transform: scale(1.01);
+
+}
+
+.shop .card:hover  .card-body h6 {
+    visibility: visible;
+    transform: scale(1.01);
+    font-weight: 500;
+
+}
+.shop .card:hover .card-body .button {
+    visibility: visible;
+    transform: scale(1.01);
+}
+
+
+.shop .card .card-body .button {
+    text-decoration: none;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 500;
+    background: transparent;
+    color: black;
+    text-transform: capitalize;
+    transition: 0.4s ease;
+    visibility: hidden;
+}
+
+.shop .card .card-body .button:hover {
+    background-color: white;
+    /* color: #fff; */
+    border-color: black;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px hsl(35, 100%, 50%);
+}
+
+/* shop END */
+
+
+
+
+
+
+/* Sale start */
+.sale {
+    background-color: #f9f9f9;
+    padding-top: 60px;
+}
+
+.sale .main-text {
+   height: 150px;
+   background-color: rgba(238, 224, 208);
+}
+.sale .main-text h1{
+    padding-top:30px;
+ }
+ .sale .main-text h5{
+    font-size: 12px;
+    font-weight: 400;
+ }
+
+ .sale .main-text .button {
+    text-decoration: none;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 500;
+    background: transparent;
+    color: black;
+    text-transform: capitalize;
+    transition: 0.4s ease;
+}
+
+.sale .main-text .button:hover {
+    background-color:hsl(35, 100%, 50%) ;
+    border-color: white;
+    color: white;
+    transform: scale(1.01);
+    box-shadow: 0 0 10px hsl(35, 100%, 50%);
+}
+
+.sale .card {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.sale .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 12px;
+    transform: scale(1.01);
+}
+.sale .card img {
+    height: 250px;
+    border-radius: 5px;
+}
+.sale .card .card-body{
+    background: transparent;
+    text-align: center;
+}
+.sale .card .card-body h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+.sale .card .card-body h6 strong{
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration:line-through;
+}
+.sale .card .card-body h6{
+    font-size: 13px;
+    font-weight: 550;
+}
+.sale .card .card-body h6 b{
+    padding-left: 4px;
+    font-weight: 550;
+}
+.sale .card .card-body .button{
+    text-decoration: none;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-weight: 600;
+    background: transparent;
+    color: black;
+    transition: 0.5s ease;
+}
+.sale .card .card-body .button:hover{
+    background-color: #ffa500;
+    color: #fff;
+    border-color: #ffa500;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ffa500;
+}
+
+
+
+
+/* Sale End */
+
+.about{
+    background-color: #f9f9f9;
+    padding-top: 50px;
+}
+.about .card{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.about .card {
+    background: url(./pics/about.gif);
+    background-size: cover;
+    border-radius: 10px;
+    height: 450px;
+}
+.about .row{
+    margin-top: 50px;
+}
+.about .row h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    
+}
+.about .row p{
+    padding-top: 0px;
+    font-size: 15px;
+    word-spacing: 1px;
+    text-align: justify;
+    color: black;
+
+}
+
+.about .row .bt{
+    width: 110px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 20px;
+    color: black;
+    font-size: 13px;
+    
+}
+
+.about .row .bt:hover{
+    background-color: #ffa500;
+    color: #fff;
+    border-color: #ffa500;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+/* About End */
+
+
+
+/* Footer Start */
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+    margin-top: 50px;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:13px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+    font-weight: 300;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:1;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.8;
+    margin-bottom:0;
+    font-size: 12px;
+    font-weight: 300;
+    word-spacing: 1px;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+    padding-top: 30px;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:1;
+    background-color: white;
+    color: black;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:15px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+
+
+/* Footer End */
